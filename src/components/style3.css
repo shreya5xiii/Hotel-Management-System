@@ -1,0 +1,112 @@
+.cardform {
+  width: 100vw;
+  height: fit-content;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  border: none;
+  margin-top: 8vh;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+}
+.cardform .fa {
+  color: rgb(63, 61, 61);
+  font-size: 25px;
+  cursor: pointer;
+}
+.cardform h3 {
+  color: rgb(63, 61, 61);
+  font-family: "Comic Sans MS, Comic Sans", cursive;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 1px 0;
+  display: inline-block;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+input[type="text"]:hover,
+input[type="date"]:hover,
+input[type="time"]:hover,
+input[type="number"]:hover,
+select:hover {
+  transform: scale(1.01);
+  cursor: pointer;
+}
+.button {
+  background-color: #9c97fa;
+  color: rgb(14, 13, 13);
+  font-weight: bold;
+  border-radius: 20px;
+  width: 40%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.button:hover {
+  transform: scale(1.01);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  background-color: #0d0c1b;
+  color: white;
+}
+
+#room-list tr td {
+  background-color: transparent;
+  border: none;
+  color: rgb(39, 38, 38);
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Comic Sans MS, Comic Sans", cursive;
+}
+@media (max-width: 1100px) {
+  .allroomcont {
+    overflow-x: scroll;
+  }
+}
+.allclientdiv {
+  overflow-x: scroll;
+}
+
+/* for choice room */
+.choiceform {
+  width: 500px;
+  height: fit-content;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  border: none;
+  margin-top: 25vh;
+  padding: 50px;
+}
+
+.choiceform i {
+  font-size: 25px;
+}
+
+td .button {
+  border: none;
+  background-color: #9c97fa;
+  width: 100%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.room-list {
+  overflow: scroll;
+}
+
+@media (max-width: 765px) {
+  .choiceform {
+    width: 300px;
+    padding: 30px;
+  }
+}
